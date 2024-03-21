@@ -74,7 +74,7 @@ fun NotesScreen(viewModel: MainViewModel) {
                         contentDescription = "Add Note Button"
                     )
                 }
-                )
+            )
         }
     )
 }

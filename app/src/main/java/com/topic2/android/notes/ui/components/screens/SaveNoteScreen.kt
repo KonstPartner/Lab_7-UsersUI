@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.sp
 import com.topic2.android.notes.domain.model.ColorModel
 import com.topic2.android.notes.ui.components.NoteColor
 import com.topic2.android.notes.util.fromHex
+import com.topic2.android.notes.viewmodel.MainViewModel
 
 @Composable
 private fun ColorPicker(
@@ -93,17 +94,5 @@ fun ColorItem(
 fun ColorItemPreview() { ColorItem(ColorModel.DEFAULT) {} }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@Composable
+fun SaveNoteScreen(viewModel: MainViewModel) {}
