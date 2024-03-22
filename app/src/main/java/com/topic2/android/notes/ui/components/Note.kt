@@ -88,12 +88,3 @@ import com.topic2.android.notes.util.fromHex
         note = NoteModel(1, "Заметки 1", "Содержимое 1", null)
     )
 }
-
-
-
-
-
-
-
-
-
